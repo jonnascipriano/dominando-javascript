@@ -1,3 +1,4 @@
+// Escrever um programa que solicite ao usuário dois números e exiba a soma, subtração, multiplicação e divisão entre eles.
 let num1 = parseFloat(prompt("Digite o primeiro número"))
 let num2 = parseFloat(prompt("Digite o segundo número"))
 
