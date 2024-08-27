@@ -1,7 +1,6 @@
 // Escreva um programa que solicite ao usuário um número N e exiba a soma de todos os números de 1 a N.
 
-let n = 4 
-// Number(prompt('Digite um número'))
+let n = Number(prompt('Digite um número'))
 
 // se n não for um número ou n for menor que 1
 if (isNaN(n) || n < 1){
