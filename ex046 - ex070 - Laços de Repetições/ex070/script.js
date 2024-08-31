@@ -15,7 +15,6 @@ if(cpfNumeros.length !== 11){
             soma += Number(cpfNumeros.charAt(i)) * (10-i)
         }
         let digitoVerificador1 = 11 - (soma%11)
-
         // Verifica o primeiro dígito verificador
         if(digitoVerificador1 > 9){
             digitoVerificador1 = 0
@@ -29,7 +28,6 @@ if(cpfNumeros.length !== 11){
                 soma += Number(cpfNumeros.charAt(i)) * (11-i)
             }
             let digitoVerificador2 = 11 - (soma%11)
-
             // Verifica o segundo dígito verificador
             if(digitoVerificador2 > 9){
                 digitoVerificador2 = 0
