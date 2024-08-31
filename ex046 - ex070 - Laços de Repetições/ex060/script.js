@@ -9,4 +9,6 @@ do {
     if(number >= 0){
         sum += number
     }
-} while
+} while (number >= 0)
+
+document.querySelector('p').innerHTML = `A soma dos números positivos é: ${sum}`
