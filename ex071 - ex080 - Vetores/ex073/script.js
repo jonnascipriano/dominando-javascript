@@ -7,7 +7,7 @@ let vetor = []
 
 // Solicita o usuário para adicionar um número dentro do vetor
 for(let i = 0; i < quantidade; i++){
-    const numero = Number(prompt('Digite o elemento ${i+1}'))
+    const numero = Number(prompt(`Digite o elemento ${i+1}`))
     vetor.push(numero)
 }
 
